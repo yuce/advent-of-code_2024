@@ -2,7 +2,10 @@
 %%% see: https://adventofcode.com/2024/day/2
 %%% 2024, Yüce Tekol
 
--spec is_safe(Report :: list()) -> boolean().
+-module(day2).
+
+-export([main/0]).
+
 is_safe([First|Rest]) ->
     is_safe(First, Rest, none).
 
@@ -50,7 +53,7 @@ process_report_str(ReportStr) ->
     process_report(Report).
 
 
-main(_) ->
+main() ->
     Text = """
         7 6 4 2 1
         1 2 7 8 9
