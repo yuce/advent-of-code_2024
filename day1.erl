@@ -1,5 +1,5 @@
-%%% Advent of Code Day 2:
-%%% see: https://adventofcode.com/2024/day/2
+%%% Advent of Code Day 1:
+%%% see: https://adventofcode.com/2024/day/1
 %%% 2024, Yüce Tekol
 
 -module(day1).
