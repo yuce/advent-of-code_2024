@@ -5,8 +5,9 @@ These are my solutions to some of the coding problems in [Advent of Code 2024](h
 ## Requirements
 
 * Erlang 27 and up
+* make (not strictly required)
 
 ## Usage
 
-Make sure `escript` executable distributed with Erlang/OTP is in `$PATH`.
-Then run `escript day$DAY.escript`, e.g., `escript day3.escript`.
+Make sure `erl` `erlc` executables distributed with Erlang/OTP is in `$PATH`.
+Then run `make day$DAY`, e.g., `make day1`.

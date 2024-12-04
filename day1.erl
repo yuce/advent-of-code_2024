@@ -1,3 +1,7 @@
+%%% Advent of Code Day 2:
+%%% see: https://adventofcode.com/2024/day/2
+%%% 2024, Yüce Tekol
+
 -module(day1).
 
 -export([main/0]).
